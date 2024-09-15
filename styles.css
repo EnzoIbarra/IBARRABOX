@@ -1,0 +1,88 @@
+
+.titulo{
+    color: rgb(10, 10, 10);
+    margin-left: 0.5em;
+}
+
+#tituloylogo{
+    display: flex;
+    justify-content: center;
+
+    margin-right: 1em;
+    
+}
+
+#principal{ font-size: 3em;
+    color: white;
+
+}
+
+#encabezado{
+    font-size: 2em;
+    background-color: rgb(7, 0, 39);
+    color: white;
+    border: 0.15em solid black;
+}
+
+#subtitulo{
+    font-size: 1em;
+    color: white;
+}
+.logotipo {
+    background-color: white;
+    width: 12vw;
+    margin-left: 2em;
+}
+
+.logo{
+    width: 20em;
+    height: 20em;
+
+}
+.cards{
+    border: 2px solid cornflowerblue;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.cards:hover{
+    background-color: rgb(173, 195, 237);
+    transition: 1s;
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid cornflowerblue;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.pedidos{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1%;
+    border: 0.05em solid black;
+    border-style: outset;
+    padding: 1px 1px 1px 1px;
+
+
+}
+.pedidos:hover{
+    background-color: rgb(105, 164, 172);
+    transition: 0.5s;
+    
+}
+.input{
+    border: 2px solid rgb(101, 101, 101);
+    width: fit-content;
+}

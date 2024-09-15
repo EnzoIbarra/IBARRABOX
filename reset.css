@@ -1,0 +1,62 @@
+/* Reset de estilos para CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina el comportamiento de bloques en elementos nuevos de HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* Asegura que las imágenes nunca sobresalgan de sus contenedores */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Elimina el estilo por defecto en listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina el subrayado y el color en los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que los inputs y botones no tengan bordes por defecto */
+input, button, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Elimina las comillas en blockquotes y citas */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+}
+
+/* Define una tipografía básica */
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Colapsa los bordes de las tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
